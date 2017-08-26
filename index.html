@@ -11,9 +11,9 @@
 
 <form id="kalkulator">
     <label for="wplata">Wpłata w PLN: </label>
-    <input id="" type="number" value="0"><br>
+    <input id="wplata" type="number" value="0"><br>
     <label for="okres-kapitalizacji">Częstotliwość Kapitalizacji</label>
-    <select name="" id="okres-kapitalizacji">
+    <select id="okres-kapitalizacji">
     <option value="12">Miesięcznie</option>
     <option value="4">Kwartalnie</option>
     <option value="1" selected>Roznie</option>
@@ -24,7 +24,7 @@
     <input type="number" value="10" min="0" id="oprocentowanie"><br>
     <label for="podatek">Uwzględnij podatek belki 19%</label><br>
     <input type="checkbox" id="podatek"><br><br>
-    <button type="button" onclick="oblicz();">Oblicz</button>
+    <button id="wynik" type="button" onclick="oblicz();">Oblicz</button>
 </form>
 
 
